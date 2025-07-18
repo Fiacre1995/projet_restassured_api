@@ -30,6 +30,7 @@ jobs:
           name: surefire-reports
           path: target/surefire-reports/
 
+      #Report html
       - name: 📤 Upload HTML report
         if: always()
         uses: actions/upload-artifact@v4
