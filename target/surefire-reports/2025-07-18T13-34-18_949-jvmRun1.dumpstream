@@ -1,0 +1,27 @@
+# Created at 2025-07-18T13:34:24.214
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2025-07-18T13:34:24.217
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2025-07-18T13:34:24.219
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (malloc) failed to allocate 1392528 bytes for Chunk::new'.
+
+# Created at 2025-07-18T13:34:24.220
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2025-07-18T13:34:24.227
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# C:\Mes Projets\restassured-testng-token\hs_err_pid65516.log'.
+
+# Created at 2025-07-18T13:34:24.273
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[thread 43996 also had an error]'.
+
+# Created at 2025-07-18T13:34:24.274
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2025-07-18T13:34:24.275
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# Compiler replay data is saved as:'.
+
+# Created at 2025-07-18T13:34:24.322
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# C:\Mes Projets\restassured-testng-token\replay_pid65516.log'.
+

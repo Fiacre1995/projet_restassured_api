@@ -1,0 +1,41 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/WelcomeElement"
+  },
+  "definitions": {
+    "WelcomeElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "bookId": {
+          "type": "integer"
+        },
+        "customerName": {
+          "type": "string"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "timestamp": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "bookId",
+        "createdBy",
+        "customerName",
+        "id",
+        "quantity",
+        "timestamp"
+      ],
+      "title": "WelcomeElement"
+    }
+  }
+}

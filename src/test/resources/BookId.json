@@ -1,0 +1,46 @@
+{
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "isbn": {
+          "type": "string",
+          "format": "integer"
+        },
+        "type": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "current-stock": {
+          "type": "integer"
+        },
+        "available": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "author",
+        "available",
+        "current-stock",
+        "id",
+        "isbn",
+        "name",
+        "price",
+        "type"
+      ],
+      "title": "Welcome"
+    }
+  }
+}

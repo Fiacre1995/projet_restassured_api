@@ -1,0 +1,21 @@
+{
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "type": "boolean"
+        },
+        "orderId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "created",
+        "orderId"
+      ],
+      "title": "Welcome"
+    }
+  }
+}

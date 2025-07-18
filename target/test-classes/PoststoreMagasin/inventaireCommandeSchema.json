@@ -1,0 +1,53 @@
+{
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sold": {
+          "type": "integer"
+        },
+        "The Best Dog of World": {
+          "type": "integer"
+        },
+        "string": {
+          "type": "integer"
+        },
+        "pending": {
+          "type": "integer"
+        },
+        "testStatus": {
+          "type": "integer"
+        },
+        "available": {
+          "type": "integer"
+        },
+        "homeless": {
+          "type": "integer"
+        },
+        "game_over": {
+          "type": "integer"
+        },
+        "peric": {
+          "type": "integer"
+        },
+        "invalid-status": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "The Best Dog of World",
+        "available",
+        "game_over",
+        "homeless",
+        "invalid-status",
+        "pending",
+        "peric",
+        "sold",
+        "string",
+        "testStatus"
+      ],
+      "title": "Welcome"
+    }
+  }
+}

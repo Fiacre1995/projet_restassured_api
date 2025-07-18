@@ -1,0 +1,45 @@
+{
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "username": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "userStatus": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "email",
+        "firstName",
+        "id",
+        "lastName",
+        "password",
+        "phone",
+        "userStatus",
+        "username"
+      ],
+      "title": "Welcome"
+    }
+  }
+}
